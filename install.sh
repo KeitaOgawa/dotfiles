@@ -6,6 +6,7 @@ DOT_FILES=(
     .bashrc
     .bash_profile
     .vimrc
+    .tmux.conf
     .gitconfig
     )
 
