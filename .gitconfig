@@ -1,0 +1,25 @@
+# ユーザー認証設定
+[user]
+	email = tsumi.toragi.kuzushi@gmail.com
+    name = Keita Ogawa
+
+# Editor設定
+[core]
+    editor = vim
+
+# コンフリクト時のEditorの設定
+[merge]
+    tool = vimdiff
+
+# カラー出力の有効化
+[color]
+    ui = auto
+
+# エイリアスの設定
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset - %s%C(yellow)%d%Creset %Cgreen(%cr:%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --date=iso
+    lga = !"git lg --all"
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
